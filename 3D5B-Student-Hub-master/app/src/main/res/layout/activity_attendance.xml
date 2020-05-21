@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidback"
+    tools:context=".Attendance">
+
+    <TextView
+        android:id="@+id/attendancePercentageTextView"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#9FFFFFFF"
+        android:focusable="false"
+        android:text="Your attendance is: "
+
+        android:textAlignment="center"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ModuleNameText" />
+
+    <Button
+        android:id="@+id/buttonAttended"
+
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/assesment"
+        android:text="Attended"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttonMissed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toAttendMissView" />
+
+    <Button
+        android:id="@+id/buttonMissed"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:background="@drawable/remind"
+        android:text="Missed"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toEndOf="@+id/buttonAttended"
+
+        app:layout_constraintTop_toBottomOf="@+id/toAttendMissView" />
+
+
+    <TextView
+        android:id="@+id/toAttendMissView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#9FFFFFFF"
+        android:focusable="false"
+        android:foregroundGravity="fill_horizontal|clip_horizontal|center"
+        android:gravity="clip_horizontal|center|fill_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attendancePercentageTextView" />
+
+    <TextView
+        android:id="@+id/ModuleNameText"
+        android:layout_width="329dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/moduleb"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

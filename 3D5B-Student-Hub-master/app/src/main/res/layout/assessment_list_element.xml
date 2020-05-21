@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp">
+
+
+
+    <TextView
+        android:id="@+id/AssesmentName"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="AssesementName"
+
+        android:background="@drawable/assesment"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/GradeData"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="270dp"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:background="@drawable/done1"
+
+        android:text="70%"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</androidx.cardview.widget.CardView>

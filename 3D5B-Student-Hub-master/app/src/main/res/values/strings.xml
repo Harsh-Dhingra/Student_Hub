@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name" translatable="false">Student Hub</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_StudentID">Please enter a valid 8 digit student ID</string>
+    <string name="invalid_email">Please enter a valid Email address</string>
+    <string name="invalid_pasword">Please enter a six digit password</string>
+
+    <array name="modules">
+        <item>Select Module</item>
+        <item>module1</item>
+        <item>module2</item>
+        <item>module3</item>
+        <item>module4</item>
+        <item>module5</item>
+        <item>module6</item>
+    </array>
+
+    <string-array name="Year">
+        <item>Year-1</item>
+        <item>Year-2</item>
+        <item>Year-3</item>
+        <item>Year-4</item>
+        <item>Year-5</item>
+    </string-array>
+
+
+    <string-array name="Course">
+        <item>Engineering</item>
+        <item>Medical</item>
+        <item>Business</item>
+        <item>Arts</item>
+        <item>Law</item>
+    </string-array>
+
+
+    <string-array name="items_class">
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+    </string-array>
+
+    <string-array name="items_div_class_1">
+        <item>Integrated Engineering</item>
+        <item>No further modules available</item>
+
+    </string-array>
+
+    <string-array name="items_div_class_2">
+        <item>Integrated Engineering</item>
+        <item>No further modules available</item>
+    </string-array>
+
+    <string-array name="items_div_class_3">
+        <item>Computer Engineering</item>
+        <item>No further modules available</item>
+    </string-array>
+
+    <string-array name="items_div_class_4">
+        <item>Computer Engineering</item>
+        <item>No further modules available</item>
+    </string-array>
+
+</resources>

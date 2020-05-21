@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "122786261359",
+    "firebase_url": "https://tcd-student-hub-14e56.firebaseio.com",
+    "project_id": "tcd-student-hub-14e56",
+    "storage_bucket": "tcd-student-hub-14e56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122786261359:android:63c3854faa4604279ba09a",
+        "android_client_info": {
+          "package_name": "com.example.studenthub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122786261359-5sqnnjh4suj2j2a0i45pfiie4sckdtej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studenthub",
+            "certificate_hash": "b1c12bb060a6c175431999128e1e13e456fceab3"
+          }
+        },
+        {
+          "client_id": "122786261359-oopnfv448j3mjkbl1qlu626n9pccb7qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLKudVyU0hLMUmU2o5a0EMwURgT8IZddc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122786261359-oopnfv448j3mjkbl1qlu626n9pccb7qu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
